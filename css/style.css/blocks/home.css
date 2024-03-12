@@ -1,0 +1,147 @@
+.home {
+  max-width: 1280px;
+}
+
+.home__content {
+  max-width: 653px;
+  position: relative;
+}
+
+
+
+
+
+.home__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 67px;
+  height: 88px;
+  margin-bottom: 33px;
+}
+
+.home__desc {
+  max-width: 619px;
+  font-size: 16px;
+  margin-bottom: 116px;
+}
+
+.home__text {
+  width: 469px;
+  height: 76px;
+  font-weight: 600;
+}
+
+.home__img {
+  max-width: 855px;
+  max-height: 569px;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+@media (width < 1280px) {
+  .home__container {
+    margin-left: 10px;
+    margin-right: 0px;
+    position: relative;
+  }
+
+ 
+
+  .home__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 31px;
+    height: 29px;
+    margin-bottom: 21px;
+  }
+
+  .home__desc {
+    max-width: 356px;
+    height: 45px;
+    font-size: 12px;
+    margin-bottom: 54px;
+  }
+
+  .home__text {
+    max-width: 273px;
+    height: 96px;
+    font-size: 12px;
+  }
+
+  .home__img {
+    max-width: 569px;
+    height: 378px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 0;
+  }
+}
+
+@media (width < 768px) {
+ 
+
+  .home__container {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .home__btn {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
+  .home__title {
+    font-size: 18px;
+
+    margin-top: 21px;
+
+    margin-bottom: 370px;
+  
+  }
+
+  .home__desc {
+    height: 45px;
+    font-size: 12px;
+    margin-bottom: 50px;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 345px; */
+    /* text-align: start; */
+  }
+
+  .home__text {
+    height: 96px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home__img {
+    height: 299px;
+    margin-bottom: 29px;
+    margin-top: 20px;
+  }
+}
+
+@media (width < 568px) {
+  .home__title {
+    margin-bottom: 300px;
+  }
+ 
+}
+
+@media (width = 360px) {
+  .home__title {
+    margin-bottom: 220px;
+  }
+ 
+} 

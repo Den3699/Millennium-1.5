@@ -1,0 +1,170 @@
+.header {
+  height: 115px;
+}
+
+.header__container {
+  height: 60px;
+  margin-top: 32px;
+  margin-bottom: 23px;
+}
+
+.logo {
+  max-width: 182px;
+  height: 55px;
+}
+
+.menu__list {
+  font-weight: 700;
+  margin-left: 34px;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  max-width: 382px;
+  min-height: 17px;
+  align-items: center;
+  display: flex;
+  gap: 27px;
+}
+
+.menu__link {
+  transition: color 0.2s ease;
+}
+
+.menu__link:hover {
+  color: #6b5af9;
+}
+
+.social {
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 30px;
+  margin-left: 67px;
+  gap: 10px;
+}
+ 
+
+.contacts__link_value {
+  max-width: 233px;
+  height: 29px;
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 15px;
+}
+
+.contacts__link_caption {
+  margin-left: 69px;
+  font-size: 12px;
+  font-weight: 700;
+  max-width: 179px;
+  height: 15px;
+}
+
+.header__btn {
+  display: inline-block;
+  height: 60px;
+  width: 177px;
+  margin-left: 20px;
+
+  background-color: #6b5af9;
+  color: #ffffff;
+  padding-top: 22px;
+  padding-bottom: 23px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 5px;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+.home__btn {
+  width: 275px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #6b5af9;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  padding-top: 23px;
+  padding-bottom: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: opacity 0.2s ease;
+}
+
+.header__btn_small {
+  width: 62px;
+  height: 40px;
+  background-color: #6b5af9;
+}
+
+.header__burger {
+  display: block;
+}
+
+.header__burger1 {
+  margin-bottom: 4px;
+}
+
+.header__burger2 {
+  margin-bottom: 4px;
+}
+
+@media (width > 1279px) {
+  .header__btn_small,
+  .header__burger {
+    display: none;
+  }
+}
+
+@media (width < 1280px) {
+  .menu,
+  .social,
+  .contacts,
+  .header__btn {
+    display: none;
+  }
+
+  .header {
+    height: 97px;
+  }
+
+  .header__container {
+    margin-top: 22px;
+    margin-bottom: 15px;
+    margin-left: 41px;
+    margin-right: 32px;
+  }
+
+  .home__btn {
+    padding-top: 23px;
+    padding-bottom: 22px;
+
+    margin-bottom: 10px;
+  }
+}
+
+@media (width < 768px) {
+  .header {
+    height: 62px;
+  }
+
+  .header__container {
+    margin-top: 14px;
+    margin-bottom: 13px;
+    margin-left: 10px;
+    margin-right: 8px;
+  }
+
+  .logo {
+    height: 35px;
+  }
+
+  .header__btn_small {
+    height: 32px;
+  }
+}
