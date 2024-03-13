@@ -119,6 +119,10 @@
   .header__burger {
     display: none;
   }
+
+  .side {
+    display: none;
+  }
 }
 
 @media (width < 1280px) {
@@ -146,6 +150,23 @@
 
     margin-bottom: 10px;
   }
+
+  .menu__list {
+    display: grid;
+    gap: 28px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 0;
+
+  }
+
+  .side__close {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    height: 20px;
+    width: 20px;
+  }
 }
 
 @media (width < 768px) {
@@ -166,5 +187,16 @@
 
   .header__btn_small {
     height: 32px;
+  }
+
+  .menu__list {
+    margin-top: 60px;
+  }
+
+  .side__close {
+    left: 14px;
+    top: 24px;
+    height: 14px;
+    width: 14px;
   }
 }
