@@ -217,6 +217,20 @@
   .side__contacts {
     margin-bottom: 90px;
   }
+
+ .header.side_open .header__burger3 {
+    opacity: 0;
+    
+  }
+
+  .header__burger_open {
+    opacity: 0;
+  }
+
+ .header.side_open .header__burger_open {
+    opacity: 1;
+  }
+
 }
 
 @media (width < 768px) {
