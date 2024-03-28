@@ -45,10 +45,12 @@
     margin-right: 0px;
     position: relative;
     /* z-index: -1; */
+    
   }
 
   .home__container.side_open {
     z-index: -1;
+  
   }
 
  
