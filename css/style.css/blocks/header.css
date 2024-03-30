@@ -96,6 +96,23 @@
   transition: opacity 0.2s ease;
 }
 
+.popup__btn {
+  width: 374px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #6b5af9;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  padding-top: 23px;
+  padding-bottom: 22px;
+  text-align: center;
+  margin-bottom: 13px;
+  transition: opacity 0.2s ease;
+  margin-top: 30px;
+
+}
+
 .header__btn_small {
   width: 62px;
   height: 40px;
@@ -280,11 +297,11 @@
     gap: 100px;
   }
 
-  .popup__mail {
+  .side__mail {
     margin-bottom: 5px;
   }
 
-  .popup__contacts {
+  .side__contacts {
     margin-bottom: 42px;
   }
 }
