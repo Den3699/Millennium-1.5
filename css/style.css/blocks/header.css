@@ -304,4 +304,10 @@
   .side__contacts {
     margin-bottom: 42px;
   }
+
+  .popup__btn {
+    width: 310px;
+   
+  
+  }
 }
