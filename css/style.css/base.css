@@ -5,6 +5,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: #2a2367;
+  /* overflow-y: auto; */
 
 }
 
@@ -25,6 +26,12 @@ span {
 }
 
 @media (width < 1280px) {
+
+  /* body {
+    overflow-y: auto;
+  } */
+
+
   .container {
     padding-right: 5px;
     padding-left: 5px;

@@ -7,6 +7,9 @@ let headerButton = document.querySelector('.header__btn');
 let popupClose = document.querySelector('.popup__close');
 let headerButtonsmall = document.querySelector('.header__btn_small')
 
+let card = document.querySelectorAll('.card');
+let slaiderButton = document.querySelector('.inform__button-arrow');
+
 
 
 burgerButton.addEventListener('click', function ()  {
@@ -61,3 +64,20 @@ headerButtonsmall.addEventListener('click', function ()  {
 popupClose.addEventListener('click', function ()  {
    document.querySelector('.popup').classList.remove('open')
 });
+
+
+
+
+slaiderButton.addEventListener('click', function () {
+   card.forEach(card =>
+     card.classList.toggle('card__slaider'));
+ 
+     slaiderButton.classList.toggle('inform__button-arrow_close');
+ 
+ }); 
+ 
+ new Swiper('.swiper',{
+   pagination: {
+     el: '.swiper-pagination',
+   }
+ });

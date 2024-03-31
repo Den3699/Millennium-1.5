@@ -250,6 +250,8 @@
     
   }
 
+
+
   .header__burger_open {
     opacity: 0;
     /* transition: opacity .25s; */
@@ -257,8 +259,11 @@
 
  .header.side_open .header__burger_open {
     opacity: 1;
+    /* overflow: hidden; */
     /* transition: opacity .25s; */
   }
+
+
 
 }
 
