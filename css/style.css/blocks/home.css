@@ -383,6 +383,12 @@ span {
 }
 
 
+.picture__information {
+  width: 520px;
+  height: 350px;
+}
+
+
 
 
 
@@ -493,6 +499,39 @@ span {
   .wrapper {
     display: none;
   }
+
+
+
+
+  .receive__title {
+  
+    font-size: 24px;
+    margin-top: 77px;
+    margin-left: 15px;
+   
+    margin-bottom: 37px;
+  
+  }
+
+
+  .picture__information {
+    width: 370px;
+    height: 250px;
+  }
+
+
+  .information {
+  
+    margin-left: 15px;
+   
+  
+  }
+
+
+  
+.discription__text {
+  padding-left: 15px;
+}
   
   
 
@@ -621,6 +660,46 @@ span {
     margin-top: 30px;
     text-align: center;
   }
+
+
+
+  .receive__title {
+  
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+   
+    margin-bottom: 0px;
+  
+  }
+
+
+  .information {
+    display: grid;
+    gap: 39px;
+    justify-content: center;
+  
+
+  }
+
+  .information:nth-child(2) {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+
+
+
+
+  .information:last-child {
+    display: flex;
+    flex-direction: column-reverse;
+    /* flex-direction: row-reverse; */
+  
+   }
+
+   
 
 
 
