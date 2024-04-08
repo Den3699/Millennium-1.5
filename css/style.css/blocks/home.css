@@ -1,4 +1,11 @@
+
+
+
+
+
+
 .home {
+
   max-width: 1280px;
   margin-bottom: 160px;
 }
@@ -258,11 +265,11 @@ span {
 
 
 
-.disable-scroll {
+/* .disable-scroll {
   position: relative;
   overflow: hidden;
   height: 100vh;
-}
+} */
 
 /* .card__slider_test {
   display: none;
@@ -389,6 +396,35 @@ span {
 }
 
 
+.documents {
+  display: flex;
+  background-color: rgb(240, 213, 119);
+  /* width: 1160px;
+  height: 490px; */
+  margin-left: 140px;
+  margin-right: 140px;
+  /* position: relative; */
+}
+
+
+.documents__line {
+  ¿
+} 
+
+.certificates {
+  display: flex;
+}
+
+
+.cup {
+  margin-top: 39px;
+  margin-bottom: 13px;
+  margin-left: 34px;
+  /* position: absolute;
+  z-index: 1; */
+}
+
+
 
 
 
@@ -403,6 +439,19 @@ span {
 
 
 @media (width < 1280px) {
+
+  /* body {
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+  } */
+
+  .disable-scroll {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+
 
   .home {
     margin-bottom: 56px;
@@ -454,11 +503,7 @@ span {
     top: 0;
   }
 
-  body {
-    height: 100vh;
-    overflow: hidden;
-    overflow-y: auto;
-  }
+ 
 
   
 
