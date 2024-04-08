@@ -445,8 +445,43 @@ span {
 }
 
 
+.research__content {
+  display: flex;
+  margin-left: 140px;
+}
 
 
+
+.research__title {
+  font-weight: 800;
+  font-size: 36px;
+  color:rgb(42, 35, 103)
+  rgb(107, 90, 249);
+  margin-top: 150px;
+  margin-bottom: 66px;
+  width: 385px;
+
+}
+
+.research__text {
+  font-weight: 400;
+  font-size: 18px;
+  color:rgb(42, 35, 103);
+  
+  margin-bottom: 150px;
+  width: 544px;
+
+
+
+}
+
+
+
+.research__pictures {
+  width: 667px;
+  height: 556px;
+  margin-top: 175px;
+}
 
 
 
