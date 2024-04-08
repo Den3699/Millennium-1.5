@@ -18,25 +18,11 @@ let body = document.body;
 
 
 
-burgerButton.addEventListener('click', function ()  {
-
-   disableScroll();
-
-   side.classList.toggle('side_open');
-
-   header.classList.toggle('side_open');
-
-   function disableScroll() {
-      body.classList.add('disable-scroll');
-
-  
-   
-   }
 
 
    
    
-});
+
 
 
 burgerClose.addEventListener('click', function ()  {
@@ -57,6 +43,28 @@ document.body.addEventListener('click', event => {
    document.querySelector('.side').classList.remove('side_open')
 
 });
+
+
+
+
+
+burgerButton.addEventListener('click', function ()  {
+
+   disableScroll();
+
+   side.classList.toggle('side_open');
+
+   // header.classList.toggle('side_open');
+
+   function disableScroll() {
+      body.classList.add('disable-scroll');
+
+  
+   
+   }
+
+});
+
 
 
 

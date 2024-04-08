@@ -399,20 +399,22 @@ span {
 .documents {
   display: flex;
   background-color: rgb(240, 213, 119);
-  /* width: 1160px;
-  height: 490px; */
+  width: auto;
+  /* height: 490px; */
   margin-left: 140px;
   margin-right: 140px;
-  /* position: relative; */
-}
-
+  position: relative;
+} 
 
 .documents__line {
-  ¿
+  position: absolute;
+  margin: 26px 20px 26px 20px;
+  width: 950px;
 } 
 
 .certificates {
   display: flex;
+  /* position: absolute; */
 }
 
 
@@ -420,9 +422,29 @@ span {
   margin-top: 39px;
   margin-bottom: 13px;
   margin-left: 34px;
-  /* position: absolute;
-  z-index: 1; */
+   /* position: absolute; */
+  z-index: 1; 
 }
+
+.certificate-title {
+  font-weight: 700;
+  font-size: 12px;
+  color:rgb(159, 159, 159);
+  margin-top: 53px;
+  margin-bottom: 6px;
+
+}
+
+.certificate-subtitle {
+  font-weight: 700;
+  font-size: 12px;
+  color:rgb(42, 35, 103);
+  
+  margin-bottom: 14px;
+
+}
+
+
 
 
 
