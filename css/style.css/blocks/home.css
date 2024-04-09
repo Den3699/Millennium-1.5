@@ -634,13 +634,51 @@ span {
 .discription__text {
   padding-left: 15px;
 }
-  
-  
 
 
 
+.research__title {
+  font-weight: 800;
+  font-size: 24px;
  
+  margin-top: 100px;
+  margin-bottom: 30px;
+  width: 360px;
+
 }
+
+
+.research__content {
+ 
+  margin-left: 14px;
+  justify-content: space-around;
+}
+
+
+.research__text {
+ 
+  
+  margin-bottom: 100px;
+  /* width: 360px; */
+  height: 300px;
+
+
+
+}
+
+
+.research__pictures {
+  width: 370px;
+  height: 308px;
+  margin-top: 118px;
+}
+
+
+
+
+}
+
+
 
 @media (width < 768px) {
 
