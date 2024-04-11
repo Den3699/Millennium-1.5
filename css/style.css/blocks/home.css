@@ -584,7 +584,57 @@ span {
 
 
 
+.about__content {
+  display: flex;
+  background-color:rgb(244, 248, 255);
+  /* width: 1160px; */
+  margin-left: 140px;
+  margin-right: 140px;
+}
 
+.about-company__title {
+  font-weight: 800;
+  font-size: 36px;
+  color:rgb(42, 35, 103);
+  
+  margin-top: 41px;
+  margin-bottom: 20px;
+  margin-left: 98px;
+  /* margin-right: 140px; */
+
+}
+
+
+.about-company__text {
+  font-weight: 400;
+  font-size: 18px;
+  color:rgb(42, 35, 103);
+  width: 448px;
+  
+  margin-bottom: 271px;
+  margin-left: 98px;
+
+
+}
+
+.about-us {
+background-color:rgb(107, 90, 249);
+width: 472px;
+max-height: 486px;
+
+}
+
+
+.contact {
+  font-weight: 400;
+  font-size: 18px;
+  color:rgb(42, 35, 103);
+  width: 448px;
+  
+  margin-bottom: 271px;
+  margin-left: 98px;
+
+}
 
 
 
