@@ -1288,14 +1288,14 @@ x; */
 
   .research__content {
     display: block;
-    margin-left: 140px;
+    margin-left: 10px;
 
   }
 
-  /* .research__pictures {
+  .research__pictures {
     display: flex;
     justify-content: center;
-  } */
+  }
 
 
   .information {
@@ -1387,11 +1387,20 @@ x; */
 
   .about-us__btn {
     margin-bottom: 35px;
-    width: 268px;
+    width: 100%;
     /* margin-left: 21px;
     margin-right: 21px; */
   
   }
+
+
+  .input-text {
+  
+    font-size: 12px;
+ 
+  
+  }
+  
 
 
   .figure {
