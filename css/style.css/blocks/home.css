@@ -894,12 +894,12 @@ margin-top: 300px;
 
   .documents {
     display: block;
-    /* background-color: rgb(240, 213, 119);
+    /* background-color: rgb(240, 213, 119); */
     width: auto;
-    /* height: 490px; */
-    /* margin-left: 140px;
-    margin-right: 140px;
-    position: relative; */ 
+    /* height: 490px;  */
+    margin-left: 10px;
+    margin-right: 10px;
+    /* position: relative;  */
   } 
 
 
@@ -925,6 +925,7 @@ margin-top: 300px;
   justify-content: center;
   flex-direction: column;
   margin-bottom: 102px;
+  width: 430px;
 }
 
 /* .picture-certificate {
@@ -1305,6 +1306,16 @@ x; */
     margin-bottom: 0px;
   
   }
+
+
+  .certificate {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 102px; */
+    width: 280px;
+  }
+  
 
 
 
