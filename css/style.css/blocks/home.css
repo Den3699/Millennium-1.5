@@ -325,6 +325,7 @@ span {
 
 .swiper-slide {
   display: none;
+  /* background-color: rgb(240, 213, 119); */
 }
 
 
@@ -925,7 +926,7 @@ margin-top: 300px;
 }
 
 .certificates  {
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
@@ -935,6 +936,7 @@ margin-top: 300px;
   flex-direction: column;
   margin-bottom: 102px;
   width: 430px;
+
 }
 
 /* .picture-certificate {
@@ -1285,7 +1287,7 @@ x; */
   }
 
   .swiper-slide {
-    background: #fff;
+    /* background: #fff; */
     display: flex;
     align-items: center;
     flex-direction: column;
