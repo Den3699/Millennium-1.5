@@ -5,7 +5,7 @@ let burgerClose = document.querySelector('.side__close');
 let popup = document.querySelector('.popup');
 let headerButton = document.querySelector('.header__btn');
 let popupClose = document.querySelector('.popup__close');
-let headerButtonsmall = document.querySelector('.header__btn_small')
+let headerButtonsmall = document.querySelector('.header__btn_small');
 
 let card = document.querySelectorAll('.card');
 let slaiderButton = document.querySelector('.inform__button-arrow');
@@ -14,7 +14,7 @@ let slaiderButton = document.querySelector('.inform__button-arrow');
 let body = document.body;
 
 
-
+let certificate = document.querySelector('.certificate');
 
 
 
@@ -104,8 +104,32 @@ slaiderButton.addEventListener('click', function () {
  
  }); 
  
- new Swiper('.swiper',{
+ let swiper1 = new Swiper('.swiper',{
    pagination: {
      el: '.swiper-pagination',
    }
  });
+
+
+ let swiper2 = new Swiper('.swiper-certificate',{
+   pagination: {
+      el: '.swiper-pagination',
+   }
+ });
+
+
+
+
+//  slaiderButton.addEventListener('click', function () {
+//    certificate.forEach(certificate => 
+//    certificate.classList.toggle('certificate__slaider'));
+
+//    slaiderButton.classList.toggle('inform__button-arrow_close');
+//  });
+
+
+//  new Swiper('.swiper',{
+//    pagination: {
+//      el: '.swiper-pagination',
+//    }
+//  });

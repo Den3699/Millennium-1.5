@@ -399,7 +399,7 @@ span {
 .documents {
   display: flex;
   background-color: rgb(240, 213, 119);
-  width: auto;
+  /* width: auto; */
   /* height: 490px; */
   margin-left: 140px;
   margin-right: 140px;
@@ -425,6 +425,10 @@ span {
   margin-left: 34px;
    /* position: absolute; */
   z-index: 1; 
+}
+
+.certificate {
+  width: 230px;
 }
 
 .certificate-header {
@@ -912,6 +916,11 @@ margin-top: 300px;
 .certificate:nth-child(2) {
   /* overflow: hidden;
   opacity:0; */
+  display: none;
+}
+
+.swiper-certificate:nth-child(2) {
+ 
   display: none;
 }
 
