@@ -104,18 +104,18 @@ slaiderButton.addEventListener('click', function () {
  
  }); 
  
- let swiper1 = new Swiper('.swiper',{
+ let swiper = new Swiper('.swiper',{
    pagination: {
      el: '.swiper-pagination',
    }
  });
 
 
- let swiper2 = new Swiper('.swiper-certificate',{
-   pagination: {
-      el: '.swiper-pagination',
-   }
- });
+//  let swiper2 = new Swiper('.swiper-certificate',{
+//    pagination: {
+//       el: '.swiper-pagination',
+//    }
+//  });
 
 
 
